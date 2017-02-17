@@ -1,0 +1,4 @@
+git stash -u => save WD and stage files
+git stash list => inquiry
+git stash pop => restore previous files
+git stash clear => clear previois files
