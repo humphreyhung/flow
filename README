@@ -1,3 +1,6 @@
 push an existing repository
 git remote add origin https://github.com/humphreyhung/flow.git
 git push -u origin master
+
+pull from repositiry
+git pull --rebase origin master (no merge line)
