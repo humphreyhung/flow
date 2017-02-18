@@ -10,6 +10,8 @@ git pull --rebase origin master (no merge line)
 <usually use commad>
 git init
 git add
+git rm
+git mv
 git commit -m
 git status
 git log  --oneline
@@ -19,6 +21,8 @@ git checkout -b branch (make branch and switch)
 git reset --hard SHA1cod(6 digit)
 git reset --hard ORIG_HEAD
 git branch
+git branch master (generte branch from master)
+git branch -a
 git branch -d
 git merge
 git tag
@@ -27,7 +31,8 @@ git stash
 git stash -u (save also WD area)
 git stash list
 git stash pop
-
+git diff
+git show v1.0
 git clone
 git remote
 
