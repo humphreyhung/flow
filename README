@@ -1,6 +1,34 @@
-push an existing repository
+<push an existing repository>
 git remote add origin https://github.com/humphreyhung/flow.git
 git push -u origin master
+git push --all
+git push --tags
 
-pull from repositiry
+<pull from repositiry>
 git pull --rebase origin master (no merge line)
+
+<usually use commad>
+git init
+git add
+git commit -m
+git status
+git log  --oneline
+git reset (git rm --cached c.txt)
+git checkout branch
+git checkout -b branch (make branch and switch)
+git reset --hard SHA1cod(6 digit)
+git reset --hard ORIG_HEAD
+git branch
+git branch -d
+git merge
+git tag
+git tag -a -m
+git stash
+git stash -u (save also WD area)
+git stash list
+git stash pop
+
+git clone
+git remote
+
+
