@@ -36,4 +36,7 @@ git show v1.0
 git clone
 git remote
 
+git log -p
+git log -U1 --word-diff
 
+git commit --amend

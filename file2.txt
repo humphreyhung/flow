@@ -1,1 +1,3 @@
 2
+diff staged
+check by git diff --cached
