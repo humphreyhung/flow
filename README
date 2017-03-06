@@ -36,4 +36,4 @@ git show v1.0
 git clone
 git remote
 
-
+git status -uno (no list untracked files)
