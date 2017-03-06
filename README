@@ -31,7 +31,10 @@ git stash
 git stash -u (save also WD area)
 git stash list
 git stash pop
-git diff
+git diff (compare working with index, check before git add)
+git diff HEAD (compare working with HEAD commit)
+git diff --cached HEAD (compare index with HEAD, check beofre git commit)
+git diff HEAD^ HEAD (compare previous HEAD with HEAD, 2 commit difference)
 git show v1.0
 git clone
 git remote
@@ -40,3 +43,10 @@ git log -p
 git log -U1 --word-diff
 
 git commit --amend
+git reset HEAD <file>
+
+git remote -v
+git fetch orgin (no merge)
+git remote show orgin
+
+git config --global alias.<cmd> <command> 
