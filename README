@@ -49,4 +49,6 @@ git remote -v
 git fetch orgin (no merge)
 git remote show orgin
 
-git config --global alias.<cmd> <command> 
+git config --global alias.<cmd> <command>
+
+git status -uno (no list untracked files)
